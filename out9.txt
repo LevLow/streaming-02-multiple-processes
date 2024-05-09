@@ -1,0 +1,162 @@
+(base) levilowther@Levis-MacBook-Pro streaming-02-multiple-processes-1 % python3 process_streaming_Lowther.py
+2024-05-08 21:39:44,895 - INFO - ===============================================
+2024-05-08 21:39:44,895 - INFO - Starting fake streaming process.
+2024-05-08 21:39:44,895 - INFO - Starting to stream data from real_estate_prices.csv to ('localhost', 9999).
+2024-05-08 21:39:44,895 - INFO - Opened for reading: real_estate_prices.csv.
+2024-05-08 21:39:44,895 - INFO - Skipped header row: ['Serial Number', 'List Year', 'Date Recorded', 'Town', 'Address', 'Assessed Value', 'Sale Amount', 'Sales Ratio', 'Property Type', 'Residential Type', 'Non Use Code', 'Assessor Remarks', 'OPM remarks', 'Location']
+2024-05-08 21:39:44,897 - INFO - Sent: b'[2020348, 2020, 9/13/21, Ansonia, 230 WAKELEE AVE, 150500, 325000, 0.463, Commercial, , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:39:47,903 - INFO - Sent: b'[20002, 2020, 10/2/20, Ashford, 390 TURNPIKE RD, 253000, 430000, 0.5883, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:39:50,906 - INFO - Sent: b'[210317, 2021, 7/5/22, Avon, 53 COTSWOLD WAY, 329730, 805000, 0.4096, Residential, Single Family, , , , POINT (-72.846365959 41.781677018)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:39:53,909 - INFO - Sent: b'[200212, 2020, 3/9/21, Avon, 5 CHESTNUT DRIVE, 130400, 179900, 0.7248, Residential, Condo, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:39:56,916 - INFO - Sent: b'[200243, 2020, 4/13/21, Avon, 111 NORTHINGTON DRIVE, 619290, 890000, 0.6958, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:39:59,922 - INFO - Sent: b'[200377, 2020, 7/2/21, Avon, 70 FAR HILLS DRIVE, 862330, 1447500, 0.5957, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:40:02,928 - INFO - Sent: b'[200109, 2020, 12/9/20, Avon, 57 FAR HILLS DRIVE, 847520, 1250000, 0.678, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:40:05,934 - INFO - Sent: b'[2020180, 2020, 3/1/21, Berlin, 1539 FARMINGTON AVE, 234200, 130000, 1.8015, Residential, Two Family, 08 - Part Interest, , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:40:08,940 - INFO - Sent: b'[2020313, 2020, 7/1/21, Berlin, 216 WATCH HILL RD, 412000, 677500, 0.6081, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:40:11,947 - INFO - Sent: b'[200097, 2020, 6/4/21, Bethany, 23 AMITY RD, 511000, 795000, 0.6427, Commercial, , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:40:14,953 - INFO - Sent: b'[210045, 2021, 4/29/22, Bethlehem, 89 LONG MEADOW RD, 229900, 561850, 0.4091, Residential, Single Family, , , , POINT (-73.21257902 41.666959986)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:40:17,959 - INFO - Sent: b'[210101, 2021, 12/20/21, Bloomfield, 43 LEDYARD AVE, 111580, 209000, 0.5338, Residential, Single Family, , , , POINT (-72.690802027 41.821341986)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:40:20,961 - INFO - Sent: b'[20139, 2020, 12/16/20, Bethel, 16 DEEPWOOD DRIVE, 171360, 335000, 0.5115, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:40:23,966 - INFO - Sent: b'[200086, 2020, 8/10/21, Bethlehem, 39 WOODLAND RD, 168900, 352000, 0.4798, Residential, Single Family, , , , POINT (-73.18197 41.64672)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:40:26,972 - INFO - Sent: b'[2000381, 2020, 9/13/21, Bloomfield, 9 SADDLE RIDGE, 163730, 250000, 0.6549, Residential, Condo, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:40:29,978 - INFO - Sent: b'[200258, 2020, 1/22/21, Branford, 34 SUNRISE COVE CAMP, 530500, 700000, 0.7578, Residential, Single Family, , WATERFRONT/COTTAGE ONLY/LAND IS ASSOCIATION OWNED, , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:40:32,984 - INFO - Sent: b'[210035, 2021, 10/20/21, Branford, 25 QUARRY DOCK RD, 208100, 448000, 0.4645, Residential, Condo, , , , POINT (-72.815906039 41.268214998)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:40:35,990 - INFO - Sent: b'[210748, 2021, 1/14/22, Bridgeport, 360 VINCELLETTE ST, 160776, 315000, 0.5104, Residential, Single Family, , , , POINT (-73.219385964 41.215379001)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:40:38,997 - INFO - Sent: b'[200804, 2020, 9/28/21, Branford, 119 MONTOWESE ST, 455100, 650000, 0.7001, Commercial, , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:40:42,002 - INFO - Sent: b'[201295, 2020, 9/9/21, Bristol, 609 CAMP ST, 144340, 249900, 0.5775, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:40:45,007 - INFO - Sent: b'[200032, 2020, 10/8/20, Bristol, 9 LESLIE COURT, 94920, 155000, 0.6123, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:40:48,014 - INFO - Sent: b'[211762, 2021, 6/21/22, Bridgeport, 38 RIVERVIEW DR, 86990, 247000, 0.3521, Residential, Condo, , , , POINT (-73.223086993 41.213277993)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:40:51,016 - INFO - Sent: b'[200354, 2020, 12/29/20, Bristol, 391 TIFFANY LA, 173740, 299000, 0.581, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:40:54,022 - INFO - Sent: b'[200527, 2020, 3/1/21, Bristol, 25 WARD ST, 85680, 183000, 0.4681, Residential, Two Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:40:57,029 - INFO - Sent: b'[211997, 2021, 8/2/22, Bridgeport, 1963 MAIN ST, 257910, 500000, 0.5158, Commercial, , , , , POINT (-73.196744012 41.189862979)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:41:00,030 - INFO - Sent: b'[201212, 2020, 8/23/21, Bristol, 8 JENNINGS TERR, 88060, 91000, 0.9676, Residential, Single Family, 14 - Foreclosure, FORECLOSURE SALE OUT OF BANK, , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:41:03,036 - INFO - Sent: b'[20000050, 2020, 11/5/20, Brookfield, 4 CHELSEA CT, 105110, 160000, 0.6569375, Residential, Condo, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:41:06,042 - INFO - Sent: b'[20000179, 2020, 2/22/21, Brookfield, 72 HOMESTEAD LN, 94770, 170000, 0.5574, Residential, Condo, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:41:09,048 - INFO - Sent: b'[210530, 2021, 2/9/22, Bristol, 68 JUDSON AVENUE, 76580, 190000, 0.403, Residential, Single Family, , , , POINT (-72.954410032 41.664379994)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:41:12,056 - INFO - Sent: b'[200042, 2020, 5/19/21, Canaan, 93 MAIN ST, 355800, 599000, 0.5939, Residential, Two Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:41:15,062 - INFO - Sent: b'[200117, 2020, 4/12/21, Canton, 52 COUNTRY LANE, 160850, 280000, 0.5744, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:41:18,068 - INFO - Sent: b'[2000230, 2020, 3/16/21, Cheshire, 50 ABBEY CT, 210940, 365000, 0.5779, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:41:21,073 - INFO - Sent: b'[2000330, 2020, 5/20/21, Cheshire, 844 HIGHLAND AVE, 144220, 204000, 0.7069, Residential, Single Family, 25 - Other, DEFERRED MAINTENANCE, , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:41:24,075 - INFO - Sent: b'[200078, 2020, 9/20/21, Chester, 6 SUNSET AVE, 250100, 418800, 0.5971, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:41:27,081 - INFO - Sent: b'[200268, 2020, 7/9/21, Colchester, 347 CABIN RD, 104000, 350000, 0.2971, Vacant Land, , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:41:30,087 - INFO - Sent: b'[200035, 2020, 10/29/20, Colchester, 160 SHADBUSH DR, 223900, 392000, 0.5711, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:41:33,093 - INFO - Sent: b'[200024, 2020, 11/9/20, Columbia, WEBSTER LANE, 60300, 75000, 0.804, Vacant Land, , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:41:36,097 - INFO - Sent: b'[200074, 2020, 9/1/21, Cornwall, 131 KENT RD, 246100, 385000, 0.6392, Commercial, , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:41:39,100 - INFO - Sent: b'[200101, 2020, 1/7/21, Coventry, 74 LAKEVIEW DR, 142800, 245000, 0.5828, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:41:42,103 - INFO - Sent: b'[200282, 2020, 7/15/21, Coventry, 1467 SOUTH ST, 359800, 480000, 0.7495, Commercial, , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:41:45,109 - INFO - Sent: b'[21055, 2021, 5/5/22, Canterbury, 159 BARSTOW RD, 35700, 70000, 0.51, Vacant Land, , , , , POINT (-72.004670737 41.71535266)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:41:48,115 - INFO - Sent: b'[200039, 2020, 11/6/20, Coventry, 2075 MAIN ST, 43700, 25000, 1.748, Vacant Land, , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:41:51,118 - INFO - Sent: b'[201328, 2020, 8/6/21, Cromwell, 6 BELHAVEN, 410670, 740000, 0.5549, Residential, Condo, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:41:54,124 - INFO - Sent: b'[200077, 2020, 12/8/20, Cromwell, 60 NORTH RD, 174650, 259000, 0.6743, Vacant Land, , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:41:57,130 - INFO - Sent: b'[200195, 2020, 4/26/21, Cromwell, 34 SHUNPIKE ROAD, 3360000, 5214750, 0.6443, Commercial, , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:42:00,135 - INFO - Sent: b'[200742, 2020, 3/29/21, Danbury, 17 OHEHYAHTAH PL, 339100, 550000, 0.6165, Residential, Single Family, , H16095, , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:42:03,141 - INFO - Sent: b'[200886, 2020, 5/3/21, Danbury, 86 MERRIMAC ST B, 189800, 240000, 0.7908, Residential, Condo, , G16159-2, , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:42:06,148 - INFO - Sent: b'[200938, 2020, 5/13/21, Danbury, 15-17 BOUGHTON ST #1-5, 118900, 230000, 0.5169, Residential, Condo, , I14129-5, , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:42:09,151 - INFO - Sent: b'[201018, 2020, 6/3/21, Danbury, 55 FOREST AV, 136900, 150000, 0.9126, Residential, Single Family, 01 - Family, FAMILY TRANSFER / I11200, , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:42:12,158 - INFO - Sent: b'[201186, 2020, 7/12/21, Danbury, 28 MAIN ST, 695500, 3200000, 0.21734375, Commercial, , , I15336, GAS STATION, ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:42:15,164 - INFO - Sent: b'[201443, 2020, 9/1/21, Danbury, 4 COOPER RD, 158700, 325000, 0.4883, Residential, Single Family, , C05026, , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:42:18,165 - INFO - Sent: b'[201580, 2020, 9/27/21, Danbury, 25 CROWN ST, 192300, 525000, 0.366285714, Residential, Two Family, , J12167, GOOD SALE PER MLS, ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:42:21,170 - INFO - Sent: b'[200408, 2020, 12/24/20, Danbury, 15 SCUPPO RD 1503, 130800, 260000, 0.503, Residential, Condo, , F14068-1503, , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:42:24,177 - INFO - Sent: b'[20129, 2020, 3/30/21, Derby, 196 ELIZABETH ST, 351260, 873000, 0.4023, Commercial, , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:42:27,183 - INFO - Sent: b'[20013, 2020, 12/16/20, Eastford, GENERAL LYON RD, 2200, 20000, 0.11, Vacant Land, , 12 - Non Buildable Lot, UNBLDBL, , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:42:30,185 - INFO - Sent: b'[200215, 2020, 6/4/21, East Haddam, SHANAGHAN RD, 51690, 65000, 0.7952, Vacant Land, , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:42:33,189 - INFO - Sent: b'[210098, 2021, 10/20/21, Danbury, 19 GLEN RD, 202500, 460000, 0.4402, Residential, Single Family, , K09024, , POINT (-73.433336976 41.41978399)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:42:36,195 - INFO - Sent: b'[200242, 2020, 1/27/21, East Haven, 130 COE AVE #51, 28240, 73000, 0.386849315, Residential, Condo, , , GOOD SALE PER MLS, ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:42:39,201 - INFO - Sent: b'[10095, 2001, 11/16/01, Farmington, 5 SPARROW LN, 67670, 302866, 0.223432145, , , 7, , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:42:42,208 - INFO - Sent: b'[200375, 2020, 4/6/21, East Haven, 55 THOMPSON ST #5A, 76960, 140000, 0.5497, Residential, Condo, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:42:45,211 - INFO - Sent: b'[11238, 2001, 8/30/02, Bethel, 50 FOURTH ST, 76450, 50000, 1.529, , , 8, , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:42:48,217 - INFO - Sent: b'[10035, 2001, 6/28/02, Chaplin, FEDERAL RD, 19000, 35000, 0.542857143, , , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:42:51,221 - INFO - Sent: b'[10115, 2001, 2/1/02, Clinton, 42 PRATT RD, 121900, 230000, 0.53, , , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:42:54,228 - INFO - Sent: b'[200194, 2020, 2/5/21, East Lyme, 5 ROCCO DR, 170660, 220000, 0.7757, Vacant Land, , , , , POINT (-72.22025 41.3942)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:42:57,234 - INFO - Sent: b'[200236, 2020, 3/18/21, East Lyme, 8 N EDGEWOOD RD, 238140, 421000, 0.5656, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:43:00,241 - INFO - Sent: b'[200320, 2020, 5/10/21, East Lyme, 9 FREEDOM WAY, 776230, 1525000, 0.509, Commercial, , , , , POINT (-72.24486 41.32183)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:43:03,244 - INFO - Sent: b'[210176, 2021, 4/19/22, East Hampton, 10 LOWELL RD, 153570, 270000, 0.5687, Residential, Single Family, , , , POINT (-72.490998997 41.594506983)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:43:06,251 - INFO - Sent: b'[200499, 2020, 9/10/21, East Lyme, 27 SEA CREST AVE, 233660, 517000, 0.4519, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:43:09,253 - INFO - Sent: b'[200510, 2020, 9/15/21, East Lyme, 3 CARLISE LN, 212100, 390500, 0.5431, Residential, Condo, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:43:12,259 - INFO - Sent: b'[200109, 2020, 3/30/21, Easton, 50 RIVERSIDE LANE, 165400, 300000, 0.5513, Vacant Land, , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:43:15,264 - INFO - Sent: b'[200305, 2020, 1/26/21, Enfield, 15 SALERNO DR, 233660, 410000, 0.5699, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:43:18,271 - INFO - Sent: b'[10041, 2001, 7/17/02, Eastford, WESTFORD RD, 180, 5000, 0.036, , , 28, , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:43:21,276 - INFO - Sent: b'[210278, 2021, 8/18/22, Ellington, 1 ABBOTT RD 131, 79390, 170000, 0.467, Residential, Condo, , , , POINT (-72.496333994 41.871967005)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:43:24,282 - INFO - Sent: b'[10115, 2001, 12/11/01, Bethlehem, KASSON RD, 39060, 105000, 0.372, , , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:43:27,288 - INFO - Sent: b'[10452, 2001, 12/14/01, Danbury, DIVISION ST, 140700, 300000, 0.469, , , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:43:30,295 - INFO - Sent: b'[200537, 2020, 5/21/21, Enfield, 104 BREWSTER RD, 117380, 245000, 0.4791, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:43:33,301 - INFO - Sent: b'[200652, 2020, 6/29/21, Enfield, 12 KELLY DR, 203470, 360000, 0.5651, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:43:36,303 - INFO - Sent: b'[200700, 2020, 7/13/21, Enfield, 8 SHANNON DR, 161590, 310000, 0.5212, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:43:39,308 - INFO - Sent: b'[200226, 2020, 12/18/20, Enfield, 106 RAFFIA RD, 145570, 240000, 0.6065, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:43:42,314 - INFO - Sent: b'[210721, 2021, 5/26/22, Fairfield, 59 GRACE STREET, 235970, 350000, 0.6742, Residential, Single Family, , , , POINT (-73.231428998 41.172704008)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:43:45,319 - INFO - Sent: b'[200125, 2020, 3/31/21, Essex, 35 DEER LA, 220500, 425000, 0.5188, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:43:48,326 - INFO - Sent: b'[210771, 2021, 6/8/22, Fairfield, 33 REEF COURT, 370160, 625000, 0.5922, Residential, Single Family, , , , POINT (-73.252361041 41.134042983)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:43:51,331 - INFO - Sent: b'[200140, 2020, 4/28/21, Essex, 14 ESSEX GLEN DR #12, 335800, 520000, 0.6457, Residential, Condo, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:43:54,337 - INFO - Sent: b'[210800, 2021, 6/17/22, Fairfield, 1991 POST ROAD, 833000, 1400000, 0.595, Commercial, , , , , POINT (-73.266760983 41.140355981)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:43:57,343 - INFO - Sent: b'[200055, 2020, 11/19/20, Essex, HILLSIDE DR, 5600, 5000, 1.12, Vacant Land, , 12 - Non Buildable Lot, EXCESS LAND, , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:44:00,349 - INFO - Sent: b'[11665, 2001, 7/30/02, Danbury, 3 MORGAN AVE, 94600, 175000, 0.540571429, , , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:44:03,355 - INFO - Sent: b'[20054, 2020, 10/27/20, Farmington, 8193 ELY RD, 167190, 225000, 0.743, Vacant Land, , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:44:06,360 - INFO - Sent: b'[200151, 2020, 12/14/20, Farmington, 15 MALS WAY, 356410, 550000, 0.648, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:44:09,366 - INFO - Sent: b"[10133, 2001, 7/30/02, Durham, 22 JOHN'S WAY, 60340, 82000, 0.735853659, , , , , , ]" on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:44:12,373 - INFO - Sent: b'[200539, 2020, 7/16/21, Farmington, 130 BIRDSEYE RD, 1213620, 1125000, 1.0787, Commercial, , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:44:15,379 - INFO - Sent: b'[10323, 2001, 9/23/02, Coventry, 400 EASTVIEW DR, 0, 325400, 0, , , 7, , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:44:18,386 - INFO - Sent: b'[20064, 2020, 8/31/21, Franklin, 888 ROUTE 32, 186770, 209000, 0.8936, Commercial, , 25 - Other, HARDSHIP SALE, , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:44:21,392 - INFO - Sent: b'[21200, 2021, 1/28/22, Farmington, 7 CYPRESS TRAIL, 140950, 260000, 0.5421, Residential, Condo, , , , POINT (-72.875744027 41.731196)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:44:24,398 - INFO - Sent: b'[10751, 2001, 8/1/02, Glastonbury, UT 128B S 93A, 4200, 6000, 0.7, , , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:44:27,404 - INFO - Sent: b'[21101, 2021, 11/30/21, Farmington, 38 OAKLAND AV, 137510, 398500, 0.345, Residential, Single Family, , , , POINT (-72.791588964 41.743265983)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:44:30,409 - INFO - Sent: b'[10044, 2001, 11/30/01, Derby, 5 WOODLAND WALK, 175000, 280000, 0.625, , , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:44:33,416 - INFO - Sent: b'[200827, 2020, 9/7/21, Glastonbury, 38 MONTAUK WAY, 332000, 520000, 0.6384, Residential, Condo, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:44:36,422 - INFO - Sent: b'[10383, 2001, 1/23/02, Hamden, 297 PARK RD, 77490, 115000, 0.673826087, , , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:44:39,428 - INFO - Sent: b'[20000123, 2020, 3/10/21, Granby, 18 MILL POND DR, 87290, 115000, 0.759, Vacant Land, , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:44:42,434 - INFO - Sent: b'[200579, 2020, 2/3/21, Greenwich, 2195000, 1061900, 2195000, 0.4837, Vacant Land, , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:44:45,441 - INFO - Sent: b'[10115, 2001, 3/11/02, East Haddam, 45 EH COLCHESTER TPKE, 71330, 122000, 0.584672131, , , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:44:48,450 - INFO - Sent: b'[200645, 2020, 2/17/21, Greenwich, 123 VALLEY DRIVE, 2661200, 3000000, 0.887, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:44:51,459 - INFO - Sent: b'[10250, 2001, 7/18/02, Coventry, HEMLOCK LN, 1260, 5000, 0.252, , , 24, , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:44:54,471 - INFO - Sent: b'[10045, 2001, 1/3/02, Bethany, 9 SIMPSON CT, 96590, 0, 0, , , 1, , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:44:57,482 - INFO - Sent: b'[21272, 2021, 4/6/22, Guilford, 137 OLD QUARRY RD, 1260000, 1600000, 0.7875, Residential, Single Family, , , , POINT (-72.732482968 41.255499987)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:45:00,493 - INFO - Sent: b'[201233, 2020, 6/22/21, Greenwich, 11 BAYBERRY LANE, 4259500, 4300000, 0.9905, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:45:03,505 - INFO - Sent: b'[201437, 2020, 7/20/21, Greenwich, 552 RIVER ROAD, 1337630, 2300000, 0.5815, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:45:06,510 - INFO - Sent: b'[10029, 2001, 5/13/02, Colebrook, BOHUN RD, 12900, 17000, 0.758823529, , , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:45:09,521 - INFO - Sent: b'[201494, 2020, 7/28/21, Greenwich, 20 EAST LYON FARM DRIVE, 632170, 1250000, 0.5057, Residential, Condo, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:45:12,532 - INFO - Sent: b'[10108, 2001, 11/14/01, East Haven, 130 MANSFIELD GRV RD, 87910, 149000, 0.59, , , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:45:15,543 - INFO - Sent: b'[200421, 2020, 12/24/20, Greenwich, 130 NORTH WATER STREET, 288190, 705000, 0.4087, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:45:18,555 - INFO - Sent: b'[10530, 2001, 9/12/02, Avon, 1 PUTNAM LN, 97300, 200000, 0.4865, , , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:45:21,566 - INFO - Sent: b'[10114, 2001, 2/21/02, East Windsor, EAST RD, 43, 2000, 0.0215, , , 1, , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:45:24,577 - INFO - Sent: b'[201078, 2020, 12/21/20, Griswold, 22 CROSS RD, 173040, 302000, 0.5729, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:45:27,589 - INFO - Sent: b'[210221, 2021, 12/1/21, Hamden, 85 ARCH ST, 124880, 250000, 0.4995, Residential, Two Family, , , , POINT (-72.938462036 41.338536987)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:45:30,600 - INFO - Sent: b'[12532, 2001, 8/13/02, Bolton, 45 BEACON CT, 0, 12350, 0, , , 8, , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:45:33,610 - INFO - Sent: b'[210328, 2021, 12/27/21, Hamden, 288 DAVIS ST, 129150, 263000, 0.491, Residential, Single Family, , , , POINT (-72.899764969 41.339431001)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:45:36,615 - INFO - Sent: b'[200436, 2020, 5/4/21, Groton, 67 LEAFWOOD LN S250, 71960, 130000, 0.5535, Residential, Condo, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:45:39,626 - INFO - Sent: b'[200639, 2020, 7/28/21, Groton, 4 TYLER AVE, 259770, 650000, 0.399646154, Residential, Single Family, , , , POINT (-72.07229 41.32148)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:45:42,632 - INFO - Sent: b'[10049, 2001, 11/2/01, Avon, 53 HIGH GATE DR, 367800, 550000, 0.668727273, , , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:45:45,640 - INFO - Sent: b'[200020, 2020, 10/6/20, Groton, 98 EAST SHORE AVE, 654570, 990000, 0.661181818, Residential, Single Family, 07 - Change in Property, TEAR DOWN, , POINT (-72.00446 41.31252)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:45:48,646 - INFO - Sent: b'[200098, 2020, 11/6/20, Groton, 70 ATLANTIC AVE, 354550, 742500, 0.4775, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:45:51,656 - INFO - Sent: b'[200285, 2020, 4/12/21, Guilford, 30 GRANITE RD, 77840, 150000, 0.5189, Residential, Condo, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:45:54,659 - INFO - Sent: b'[200080, 2020, 11/5/20, Guilford, 2 WINTERBERRY RD, 239550, 480000, 0.499, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:45:57,671 - INFO - Sent: b'[20360, 2020, 1/22/21, Hartford, 1301 MAIN ST, 173670, 439900, 0.3947, Commercial, , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:46:00,677 - INFO - Sent: b'[20522, 2020, 3/11/21, Hartford, 26 BRANFORD ST, 35875, 165000, 0.2174, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:46:03,683 - INFO - Sent: b'[20565, 2020, 3/29/21, Hartford, 31 EATON ST, 61915, 249000, 0.2486, Residential, Two Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:46:06,694 - INFO - Sent: b'[20614, 2020, 4/8/21, Hartford, 55 STERLING ST, 52500, 220000, 0.2386, Residential, Two Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:46:09,705 - INFO - Sent: b'[20750, 2020, 5/6/21, Hartford, 3371 MAIN ST, 126560, 180000, 0.7031, Commercial, , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:46:12,715 - INFO - Sent: b'[20899, 2020, 6/21/21, Hartford, 159 RUSS ST, 137270, 278500, 0.4928, Apartments, , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:46:15,719 - INFO - Sent: b'[2100369, 2021, 9/12/22, Madison, 119 ISLAND AVE, 486100, 1250000, 0.3888, Residential, Condo, , , , POINT (-72.600743512 41.270568157)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:46:18,729 - INFO - Sent: b'[201023, 2020, 7/26/21, Hartford, 410 MARKET ST, 435610, 525000, 0.8297, Commercial, , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:46:21,740 - INFO - Sent: b'[210086, 2021, 12/10/21, Madison, 164 MIDDLE BEACH RD, 1431600, 2241000, 0.638821954, Residential, Single Family, , , , POINT (-72.586913031 41.271236004)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:46:24,747 - INFO - Sent: b'[201129, 2020, 8/19/21, Hartford, 20 GIDDINGS ST, 114954, 360000, 0.3193, Residential, Two Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:46:27,759 - INFO - Sent: b'[210167, 2021, 5/13/22, Mansfield, OLD TURNPIKE RD PAR B, 50200, 100000, 0.502, Vacant Land, , , , , POINT (-72.24846462 41.831660405)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:46:30,770 - INFO - Sent: b'[200065, 2020, 3/31/21, Harwinton, WHETSTONE RD, 55380, 85000, 0.6515, Vacant Land, , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:46:33,775 - INFO - Sent: b'[200125, 2020, 9/7/21, Harwinton, 167 BIRGE PARK RD, 194790, 360000, 0.541, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:46:36,787 - INFO - Sent: b'[11193, 2001, 8/2/02, Milford, 65 CHERRY ST BLDG B, 56980, 95000, 0.599789474, , , 1, , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:46:39,798 - INFO - Sent: b'[200230, 2020, 4/26/21, Killingly, 152 NORTH ST, 143220, 150000, 0.9548, Apartments, , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:46:42,810 - INFO - Sent: b'[200043, 2020, 12/9/20, Killingworth, 46 TITUS COAN ROAD, 354040, 645000, 0.5488, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:46:45,821 - INFO - Sent: b'[20059, 2020, 2/18/21, Lebanon, 54 FIRST ST, 121510, 229900, 0.5285, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:46:48,829 - INFO - Sent: b'[20041, 2020, 3/9/21, Lisbon, 17 BARBER FARM RD, 76880, 90000, 0.8542, Vacant Land, , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:46:51,838 - INFO - Sent: b'[200052, 2020, 11/16/20, Litchfield, 68 BEACH ST, 149570, 200000, 0.7478, Residential, Two Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:46:54,845 - INFO - Sent: b'[200010, 2020, 11/20/20, Lyme, 0 STERLING HILL RD, 101100, 250000, 0.4044, Vacant Land, , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:46:57,851 - INFO - Sent: b'[200709, 2020, 4/16/21, Manchester, 152 GREEN ROAD, 138100, 282500, 0.488849558, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:47:00,857 - INFO - Sent: b'[210776, 2021, 4/29/22, New Britain, 291 MAIN ST, 89390, 125000, 0.7151, Commercial, , , , , POINT (-72.781545014 41.668287009)]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:47:03,864 - INFO - Sent: b'[10096, 2001, 2/28/02, Putnam, 123 PARK RD, 139000, 200000, 0.695, , , , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:47:06,870 - INFO - Sent: b'[200991, 2020, 7/8/21, Manchester, 64 MILFORD ROAD, 104300, 160000, 0.6518, Residential, Single Family, , , , ]' on port 9999. Hit CTRL-c to stop.
+2024-05-08 21:47:09,876 - INFO - Sent: b'[201027, 2020, 7/19/21, Manchester, 200 SHELDON ROAD, 517700, 800000, 0.6471, Commercial, , , , , ]' on port 9999. Hit CTRL-c to stop.
+^CTraceback (most recent call last):
+  File "/Users/levilowther/ds-venv/streaming-02-multiple-processes-1/process_streaming_Lowther.py", line 88, in <module>
+    stream_row(INPUT_FILE_NAME, ADDRESS_TUPLE)
+  File "/Users/levilowther/ds-venv/streaming-02-multiple-processes-1/process_streaming_Lowther.py", line 78, in stream_row
+    time.sleep(3) # wait 3 seconds between messages
+    ^^^^^^^^^^^^^
+KeyboardInterrupt
