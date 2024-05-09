@@ -1,4 +1,6 @@
 # streaming-02-multiple-processes
+## Hello there! My name is Levi Lowther and this is my second project for streaming data.
+
 
 > Multiple processes accessing a shared resource concurrently
 
@@ -9,12 +11,27 @@ This example starts a shared database and multiple processes.
 The processes represent multiple users, or locations, or programs 
 hitting a shared database at the same time. 
 
-## Prerequisites
+## About Levi's Machine
 
-1. Git
-1. Python 3.7+ (3.11+ preferred)
-1. VS Code Editor
-1. VS Code Extension: Python (by Microsoft)
+
+ Date and Time: 2024-05-08 at 09:29 PM
+ Operating System: posix Darwin 23.4.0
+ System Architecture: 64bit
+ Number of CPUs: 8
+ Machine Type: arm64
+ Python Version: 3.12.3
+ Python Build Date and Compiler: v3.12.3:f6650f9ad7 with Apr  9 2024 08:18:47
+ Python Implementation: CPython
+ Active pip environment: None
+ Path to Interpreter:         /Library/Frameworks/Python.framework/Versions/3.12/bin/python3
+ Path to virtual environment: /Library/Frameworks/Python.framework/Versions/3.12
+ Current Working Directory:   /Users/levilowther/ds-venv/streaming-02-multiple-processes-1
+ Path to source directory:    /Users/levilowther/ds-venv/streaming-02-multiple-processes-1
+ Path to script file:         /Users/levilowther/ds-venv/streaming-02-multiple-processes-1/about.py
+ User's Home Directory:       /Users/levilowther
+ Terminal Environment:        VS Code
+ Terminal Type:               zsh
+ Git available in PATH:       True 
 
 ## Task 1. Fork 
 
